@@ -82,7 +82,7 @@ void loop() {
   LEDCtl('g');
 
   // Servo func
-  for(int rotatePos = 180; rotatePos >= 50; rotatePos = rotatePos - 10){
+  for(int rotatePos = 180; rotatePos >= 60; rotatePos = rotatePos - 10){
     LEDCtl('g');
     rotateServo.write(rotatePos, 15, true);
     LEDCtl('b');
